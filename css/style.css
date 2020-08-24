@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color:#f5f5f5;
 }
 
 
@@ -383,9 +384,14 @@ margin-bottom: 40px;
   font-size: 120%;
   padding: 10px 5px;
 }
+.bookdisplay{
+    background-color: #eeeeee;
+    padding-bottom: 20px;
+}
 
 .cardcont {
   display: grid;
+  background-color: #e0e0e0;
   grid-template-columns: repeat(2,1fr);
   padding: 5%;
 }
@@ -397,6 +403,9 @@ margin-bottom: 40px;
   margin: 10px;
   padding:20px;
 }
+/* .th , .fh{
+margin-bottom: 0;
+} */
 
 .cardcont p {
   text-align: justify;
@@ -407,9 +416,10 @@ margin-bottom: 40px;
   height: 250px;
 }
 
-.footer {
-  padding: 5%;
 
+.foooter{
+    background-color: #bdbdbd;
+    padding-top: 50px;
 }
 .footcont {
   width: 85%;
