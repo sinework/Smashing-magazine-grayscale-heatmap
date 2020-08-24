@@ -51,13 +51,13 @@ ul li:last-child {
 
 .articles{
     position: relative;
-  
+
 }
 .main-content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
-    
+
+
 }
 #first-art{
     background-color: #616161;
@@ -82,7 +82,7 @@ ul li:last-child {
    margin:20px  auto;
    text-align: justify;
    width: 80%;
-   
+
 }
 .person{
     width: 87px;
@@ -92,6 +92,10 @@ ul li:last-child {
     border-radius: 20px;
     transform: rotate(-15deg);
 }
+.person:hover {
+  transform: rotate(0deg);
+}
+
 .btm-images{
     width: 87px;
     height: 96px;
@@ -112,15 +116,15 @@ ul li:last-child {
     position: absolute;
     top:35px;
     left:36.5%;
-    
-    
+
+
 }
 .floating-items h2{
     font-size: 40px;
     text-align: center;
     line-height: .9;
-    
-    
+
+
 }
 .floating-items span{
     background-color: #fff;
@@ -136,4 +140,102 @@ ul li:last-child {
     color: #fff;
     font-size: 15px;
     border-radius: 12px;
+}
+
+/* The article section section2*/
+
+.grid-display {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.g-item {
+  padding: 25px;
+  transition: all .1s ease;
+}
+
+.g-item:hover {
+  background-color: #9e9e9e;
+  color:white;
+}
+
+.g-item h1 {
+  font-size: 40px;
+  margin-top: 10px;
+
+}
+
+.g-item p {
+  font-size: 130%;
+}
+
+
+.article-btn {
+  color:grey;
+  padding: 10px;
+  margin-left:0px;
+  margin-top: 20px;
+}
+
+.article-btn:hover {
+  color:white;
+  background-color: black;
+}
+
+.btncont {
+  width: 30%;
+}
+
+.grid-display2 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-top: 2%;
+}
+
+.g2-item {
+  text-align: center;
+}
+.g2-2{
+background-color:grey;
+width: 85%;
+margin: auto;
+border-radius: 10px;
+padding:10px;
+}
+
+.g2-2 h1 {
+  font-size:40px;
+}
+.g2-item p {
+  font-size: 110%;
+  width: 60%;
+  margin: 10px auto;
+}
+/* The article section section3*/
+
+#logo3 {
+  width: 250px;
+  height: 290px;
+}
+
+#card {
+  border: 1px solid silver;
+  border-radius: 10px;
+  text-align: center;
+  background-color:#9e9e9e;
+  height:300px;
+  margin-left:15%;
+  padding: 15px;
+}
+
+.g2btn {
+  height: 40px;
+  color:black;
+  border-radius: 10px;
+  border: none;
+}
+
+.four {
+  margin-top: 2%;
 }
