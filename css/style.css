@@ -26,21 +26,29 @@ body {
   border-radius: 10px;
 }
 
-ul li {
-  width:90px;
+nav ul li {
+  width: 100px;
   height: 44px;
-  background-color: grey;
+  background-color: rgb(169,169,169);
   list-style-type: none;
   margin-right: 10px;
   border-radius: 10px;
+  text-align: center;
+  padding:17px 2px 0px 2px;
+
+}
+li a {
+  text-decoration: none;
+  color:white;
+  font-size: 110%;
+  text-align: center;
 }
 
-ul li:last-child {
+nav ul li:last-child {
   background-color:#454545;
   width: 130px;
 
 }
-
 
 #input {
   width: 350px;
@@ -79,7 +87,7 @@ ul li:last-child {
    font-size: 40px;
    font-family: 'Nunito Sans', sans-serif;
    color:#fff;
-   margin:20px  auto;
+   margin:20px auto;
    text-align: justify;
    width: 80%;
 
@@ -99,7 +107,6 @@ ul li:last-child {
 .btm-images{
     width: 87px;
     height: 96px;
-    margin-top: 80px;
     margin-left: 50px;
     border-radius: 20px;
     transform: rotate(-15deg);
@@ -115,22 +122,24 @@ ul li:last-child {
 .floating-items{
     position: absolute;
     top:35px;
-    left:36.5%;
+    left:35%;
 
 
 }
 .floating-items h2{
     font-size: 40px;
     text-align: center;
-    line-height: .9;
-
+    line-height: 1;
 
 }
 .floating-items span{
     background-color: #fff;
 }
 .floating-right{
-    margin-left: 300px;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    color:White;
 }
 .floating-items button{
     width: 140px;
@@ -148,6 +157,7 @@ ul li:last-child {
   display: grid;
   grid-template-columns: repeat(3,1fr);
   font-family: 'Nunito Sans', sans-serif;
+  background-color: rgb(211,211,211);
 }
 
 .g-item {
@@ -187,10 +197,16 @@ ul li:last-child {
   width: 30%;
 }
 
-.grid-display2 {
+.grid-d2 {
   display: grid;
-  grid-template-columns: 1fr 3fr;
-  margin-top: 2%;
+  grid-template-columns: repeat(3,1fr);
+  padding: 20px;
+  background-color: rgb(220,220,220);
+}
+
+#article-dark {
+background-color:#C0C0C0;
+color:white;
 }
 
 .g2-item {
@@ -202,6 +218,7 @@ width: 85%;
 margin: auto;
 border-radius: 10px;
 padding:10px;
+color:white;
 }
 
 .g2-2 h1 {
@@ -225,15 +242,16 @@ padding:10px;
   text-align: center;
   background-color:#9e9e9e;
   height:300px;
-  margin-left:15%;
   padding: 15px;
+  color:white;
 }
 
 .g2btn {
   height: 40px;
-  color:black;
+  color:white;
   border-radius: 10px;
   border: none;
+  background-color:black	;
 }
 
 .four {
@@ -244,7 +262,7 @@ padding:10px;
 .click{
     background-color: gray;
     text-align: center;
-    
+
 }
 .click-text{
     width: 60%;
@@ -266,16 +284,18 @@ padding:10px;
     border-radius: 10px;
 }
 .click img{
-    
+
     max-width: 927px;
 }
 
 
 .Community{
     background-color: rgb(190, 187, 187);
+    text-align: center;
+    padding-bottom: 30px;
 }
 .person-of-the-week{
-   
+
     padding:30px 20px;
 }
 .person-of-the-week img{
@@ -291,9 +311,11 @@ padding:10px;
 }
 .desc{
     margin: 10px 40px;
+    text-align: left;
 }
 .desc h3{
     margin-bottom: 20px;
+
 }
 .desc h2{
     font-weight: bold;
@@ -301,6 +323,8 @@ padding:10px;
 .desc p{
     font-size: 20px;
     line-height: 2;
+    text-align: justify;
+
 }
 
 .com-items{
@@ -308,8 +332,12 @@ padding:10px;
     grid-template-columns: repeat(2,1fr);
 }
 
+.item {
+margin-bottom: 40px;
+}
+
 .item img{
-    
+
     width: 70px;
     height: 80px;
     margin-left: 20px;
@@ -318,4 +346,93 @@ padding:10px;
 }
 .item img:hover{
     transform: rotate(0deg);
+}
+
+.community a {
+  text-decoration: none;
+  color:white;
+  text-transform: capitalize;
+  font-size: 140%;
+}
+
+.five article {
+  width: 95%;
+  margin: 2% auto;
+  padding: 4% 0;
+}
+
+#logo5 {
+  width:256px;
+  height: 374px;
+  transform: rotate(-10deg);
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.btext {
+  font-size: 140%;
+  margin-right:40px;
+}
+
+.btext button {
+  width: 60%;
+  height: 50px;
+  font-size: 120%;
+  padding: 10px 5px;
+}
+
+.cardcont {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 5%;
+}
+
+.cardcont article {
+  margin-bottom:80px;
+  background-color: grey;
+  border-radius: 10px;
+  margin: 10px;
+  padding:20px;
+}
+
+.cardcont p {
+  text-align: justify;
+}
+
+#logo6 {
+  width: 100%;
+  height: 250px;
+}
+
+.footer {
+  padding: 5%;
+
+}
+.footcont {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+}
+
+.ftul {
+  display: flex;
+  justify-content: center;
+}
+
+.ftul li{
+  background-color: none;
+  margin-right: 30px;
+  font-size: 110%;
+}
+
+footer img {
+  width: 110px;
+  height: 150px;
+}
+
+.footertext {
+  text-align: center;
 }
