@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.header {
+  background-color: #757575;
+  padding: 20px;
+}
+
+#logo {
+  width: 197px;
+  height: 72px;
+}
+
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.border-radius {
+  border-radius: 10px;
+}
+
+ul li {
+  width:90px;
+  height: 44px;
+  background-color: grey;
+  list-style-type: none;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+ul li:last-child {
+  background-color:#454545;
+  width: 130px;
+
+}
+
+
+#input {
+  width: 350px;
+  height: 45px;
+}
