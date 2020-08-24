@@ -269,3 +269,53 @@ padding:10px;
     
     max-width: 927px;
 }
+
+
+.Community{
+    background-color: rgb(190, 187, 187);
+}
+.person-of-the-week{
+   
+    padding:30px 20px;
+}
+.person-of-the-week img{
+    width: 230px;
+    height: 246px;
+    margin-left: 20px;
+    transform: rotate(-15deg);
+    border-radius: 25px;
+}
+
+.person-of-the-week img:hover{
+    transform: rotate(0deg);
+}
+.desc{
+    margin: 10px 40px;
+}
+.desc h3{
+    margin-bottom: 20px;
+}
+.desc h2{
+    font-weight: bold;
+}
+.desc p{
+    font-size: 20px;
+    line-height: 2;
+}
+
+.com-items{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.item img{
+    
+    width: 70px;
+    height: 80px;
+    margin-left: 20px;
+    transform: rotate(-15deg);
+    border-radius: 10px;
+}
+.item img:hover{
+    transform: rotate(0deg);
+}
