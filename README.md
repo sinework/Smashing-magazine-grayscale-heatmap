@@ -2,7 +2,7 @@
 
 This project is a clone of Smashing Magazine interface. The aim of this project was to examine the design pattern of  the website using html,css and css positioning technologies.
 
-<img src="images/readmeimg.PNG" alt="projectimg">
+<img src="images/readme.PNG" alt="projectimg">
 
 </h1>Additional description about the project and its features.</h1>
 
