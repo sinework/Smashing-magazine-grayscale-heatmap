@@ -1,50 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>SmashingMagazine clone</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SmashingMagazine clone</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Header and navigation section -->
 
+    <header class="header">
+      <nav class="nav flex">
+        <div class="logo">
+          <img src="images/logo--full.svg" alt="logo" id="logo" />
+        </div>
 
-<!-- Header and navigation section -->
+        <div class="navel">
+          <ul class="flex">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
 
-<header class="header">
+        <div class="search">
+          <input type="text" id="input" class="border-radius" />
+        </div>
+      </nav>
+    </header>
 
-  <nav class="nav flex">
-
-  <div class="logo">
-    <img src="images/logo--full.svg" alt="logo" id="logo">
-  </div>
-
-  <div class="navel">
-    <ul class="flex">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-  </div>
-
-
-  <div class="search">
-    <input type="text" id="input" class="border-radius">
-  </div>
-
-
-  </nav>
-
-</header>
-
-
-
-
-
-
-</body>
+    <!-- The article section -->
+    <section class="articles">
+      <div class="main-content">
+        <article class="article-item" id="first-art">
+            <img src="./images/logo-person.jpg" class="person" alt="img1">
+           
+            <h1>Lorem ipsum dolor sit amet consectetur,  adipisicing elit. <br> Voluptatum, iure.</h1>
+            <i class="fa fa-long-arrow-right fa-3x" aria-hidden="true"></i>
+        </article>
+        <article class="article-item" id="second-art">
+            <img src="./images/logo-person.jpg" class="person" alt="img1">
+            <h1>Lorem ipsum dolor sit amet consectetur,  adipisicing elit. <br> Voluptatum, iure.</h1>
+            <i class="fa fa-long-arrow-right fa-3x" aria-hidden="true"></i>
+        </article>
+        <article class="article-item" id="third-art">
+            <img src="./images/logo-person.jpg" class="person btm-images"    alt="img1">
+            <h1>Lorem ipsum dolor sit amet consectetur,  adipisicing elit. <br> Voluptatum, iure.</h1>
+            <i class="fa fa-long-arrow-right fa-3x" aria-hidden="true"></i>
+        </article>
+        <article class="article-item" id="fourth-art">
+            <img src="./images/logo-person.jpg" class="person btm-images"  alt="img1">
+            <h1>Lorem ipsum dolor sit amet consectetur,  adipisicing elit. <br> Voluptatum, iure.</h1>
+            <i class="fa fa-long-arrow-right fa-3x" aria-hidden="true"></i>
+        </article>
+      </div>
+      <div class="floating-items flex">
+        <h2> <span> Don’t Miss These Latest</span> <br> <span> Articles</span></h2>
+        <div class="floating-right">
+          <i class="fa fa-instagram fa-4x" aria-hidden="true"></i>
+          <button>lorem</button>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
