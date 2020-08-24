@@ -239,3 +239,33 @@ padding:10px;
 .four {
   margin-top: 2%;
 }
+
+/* The community section */
+.click{
+    background-color: gray;
+    text-align: center;
+    
+}
+.click-text{
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+
+}
+.click-text h1{
+    font-size: 40px;
+    font-family:'Nunito Sans', sans-serif ;
+}
+.click button{
+    width: 370px;
+    height: 75px;
+    background-color:black;
+    font-size: 150%;
+    color: #fff;
+    border-radius: 10px;
+}
+.click img{
+    
+    max-width: 927px;
+}
