@@ -1,4 +1,4 @@
-<h1>#Design Teardown</h1>
+<h1>#Smashing-magazine-grayscale-heatmap</h1>
 
 This project is a clone of Smashing Magazine interface. The aim of this project was to examine the design pattern of  the website using html,css and css positioning technologies.
 
@@ -27,18 +27,18 @@ Text editor,Github profile and Git.
 
 👤 Author1
 
-- Github: [@ajkacca457](https://github.com/ajkacca457)
+- Github:https://github.com/ajkacca457
 
-- Twitter: [@ajkacca](https://twiter.com/ajkacca)
+- Twitter:https://twiter.com/ajkacca
 
-- Linkedin: [LinkedIn](https://www.linkedin.com/in/avijit-karmaker-8738a54a/)
+- Linkedin: https://www.linkedin.com/in/avijit-karmaker-8738a54a/
 
 👤 Author2
 
-- Github: [@sinework/](https://github.com/sinework)
+- Github: https://github.com/sinework
 
-- LinkedIn: [LinkedIn](https://linkedin.com/SineworkShiferaw
-)
+- LinkedIn: https://linkedin.com/SineworkShiferaw
+
 
 
 <h2>🤝Contributing</h2>
