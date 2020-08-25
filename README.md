@@ -1,6 +1,6 @@
 <h1>#Smashing-magazine-grayscale-heatmap</h1>
 
-This project is a clone of Smashing Magazine interface. The aim of this project was to examine the design pattern of  the website using html,css and css positioning technologies.
+This project is a clone of Smashing Magazine interface. The aim of this project was to examine the design pattern of the website using html,css and css positioning technologies.
 
 <img src="images/readme.PNG" alt="projectimg">
 
@@ -37,9 +37,7 @@ Text editor,Github profile and Git.
 
 - Github: https://github.com/sinework
 
-- LinkedIn: https://linkedin.com/SineworkShiferaw
-
-
+- LinkedIn: https://www.linkedin.com/in/sinework-amare-731a6a125/
 
 <h2>🤝Contributing</h2>
 
