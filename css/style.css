@@ -496,13 +496,14 @@ footer img {
 
 .float-left {
   float: left;
-  height:100%;
-  margin-right:30px;
+  height: 100%;
+  margin-right: 30px;
 }
 
 .float-right {
-  float:right;
+  float: right;
 }
+
 .pt {
   padding-top: 15%;
 }
